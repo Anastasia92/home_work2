@@ -19,6 +19,7 @@ body {
 	background: #575757;
 	position: relative;
 	overflow: hidden;
+	padding: 0;	
 }
 .top_menu li {
 	display: inline-block;
@@ -41,10 +42,13 @@ body {
 }
 .line {
 	border: 1px solid #c8c8c8;
+	margin: 0;
 }
 .line li  {
 	border-top: 1px solid #c8c8c8;
 	list-style-type: none;
+	margin: 0;
+
 }
 .line li:first-child {
 	border: none;
@@ -59,6 +63,7 @@ body {
 .line a:hover{
 	background: #f9f9f9;
 	color: #2c2c2c;
+	padding-left: 15px;
 }
 .content{
 	position: relative;
@@ -90,6 +95,7 @@ body {
 	float: right;
 	line-height: 40px;
 	padding-right: 25px;
+	font-size: 14px;
 }
 .paragraph {
 	padding: 30px 23px 0 23px;
