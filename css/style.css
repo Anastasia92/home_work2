@@ -32,9 +32,13 @@ body {
 	font-size: 15px;
 	text-decoration: none;
 	padding: 0 40px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
 }
 .top_menu a:hover {
-	background: black;
+	background: #363636;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
 }
 .table_menu {
 	float: left;
@@ -42,13 +46,11 @@ body {
 }
 .line {
 	border: 1px solid #c8c8c8;
-	margin: 0;
+	padding: 0;
 }
 .line li  {
 	border-top: 1px solid #c8c8c8;
 	list-style-type: none;
-	margin: 0;
-
 }
 .line li:first-child {
 	border: none;
